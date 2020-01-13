@@ -7,13 +7,24 @@ var modify = function(input){
   var first = input.charAt(0);
   var last = input.charAt(input.length-1);
   var cap = (first + last).toUpperCase();
-  return
+  return cap;
 
 }
 
+var reverse = function(a){
 
-alert (modify(input))
+  return (a.charAt(a.length-1) + a.charAt(0)).toUpperCase();
 
+}
+
+var call = function(input) {
+  alert(modify(input));
+  alert(reverse(input));
+  alert(input + " " + modify(input));
+  
+};
+
+call(input);
 
 
 
