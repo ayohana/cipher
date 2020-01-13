@@ -33,11 +33,21 @@ var fourth = function(b) {
 var response = fourth(call(input));
 alert (response)
 
+function reverseString(str){
+  var newString = "";
+  for (var i = str.length-1; i>=0; i--){
+  newString+=str[i];
+  }
+  return newString  
+}
+
+alert (reverseString(response));
+
 $(document).ready(function() {
   $("h1").click(function() {
     alert(input);
   });
   $("h2").click(function() {
-    alert(response);
+    alert(reverseString(response));
   });
 });
