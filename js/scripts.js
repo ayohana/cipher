@@ -51,3 +51,33 @@ $(document).ready(function() {
     alert(reverseString(response));
   });
 });
+
+
+// var sentence = "The Finnish markka was the currency of Finland from 1860 to 2002. The currency was divided into 100 pennies and was first introduced by the Bank of Finland to replace the Russian ruble at a rate of four markkaa to one ruble. The markka was replaced by the euro on 1 January 2002 and ceased to be legal tender on 28 February later that year."
+
+// var pos = sentence.indexOf("the")
+
+// alert(pos);
+
+// var pos2 = sentence.lastIndexOf("the")
+
+// alert(pos2)
+
+// var pos3 = sentence.search(/Finland+/gi);
+
+// var pos4 = 
+
+// sentence = sentence.replace(new RegExp("Finland", 'gi'), "Sweden");
+
+// alert(sentence)
+
+ 
+//  var sentenceArray = sentence.Split(' ');
+//  var reg = (new RegExp("Finland", "gi"), "Sweden");
+//  for(var i = 0; i < sentenceArray.length; i++) {
+//  	if (sentenceArray[i].includes("Finland")) {
+//   	sentenceArray[i].replace(reg);
+//   }
+//  }
+ 
+//  alert(sentenceArray)
